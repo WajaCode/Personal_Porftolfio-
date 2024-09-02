@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolion Website</title>
+    <link rel="stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/577900ba37.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="header"></div>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id ="sidemenu">
+                <li><a href = "#header">Home</a></li>
+                <li><a href = "#about">About</a></li>
+                <li><a href = "#services">Services</a></li>
+                <li><a href = "#portfolio">Portfolio</a></li>
+                <li><a href = "#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Data Scientist | Data Analyst</p>
+            <h1>Hi, I'm <span>Wajahat</span> Khan <br> from USA</h1>
+        </div>
+    </div>
+</div>
+
+
+
+<!-------------------- ABOUT ME --------------------> 
+<div id = "about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class = "sub-title"> About Me </h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Temporibus magni voluptatum modi porro eos aperiam incidunt mollitia,
+                    repellendus omnis dolor in deleniti vel fuga perferendis quasi,
+                    quia sapiente aliquid dignissimos!
+                    Lorem, ipsum dolor sit amet consectetur 
+                    adipisicing elit. Sapiente dolore aspernatur reiciendis molestias 
+                    illum consequatur. Molestiae doloribus distinctio aperiam suscipit 
+                    delectus illum deserunt error, eaque eos ea nam placeat illo!</p>
+
+                    <div class="tab-titles">
+                        <p class = "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class = "tab-links" onclick="opentab('experience')" >Experience</p>
+                        <p class = "tab-links" onclick="opentab('education')" >Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Data Science</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Andriod/IOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id ='experience'>
+                        <ul>
+                            <li><span>2023-2024</span><br>Chevron </li>
+                            <li><span>2022-2023</span><br>Data Science Internship</li>
+                            <li><span>2018-2018</span><br>Data Entry</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id ='education'>
+                        <ul>
+                            <li><span>2024</span><br>MS Data Science from Eastern University</li>
+                            <li><span>2023</span><br>BA Data Science from UC Berkeley</li>
+                            <li><span>2019</span><br>De Anza High School</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------- Services --------------------> 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>  <!--this is from awesomefonts website -->
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Enim, vitae laudantium voluptatibus itaque quos voluptates 
+                    aliquid labore delectus dolor, sunt tempore eaque at? Earum 
+                    omnis facilis modi vero quidem! Saepe!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Enim, vitae laudantium voluptatibus itaque quos voluptates 
+                    aliquid labore delectus dolor, sunt tempore eaque at? Earum 
+                    omnis facilis modi vero quidem! Saepe!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Enim, vitae laudantium voluptatibus itaque quos voluptates 
+                    aliquid labore delectus dolor, sunt tempore eaque at? Earum 
+                    omnis facilis modi vero quidem! Saepe!</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------------- Portfolio --------------------> 
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" a>
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>bewlalah  blalhah  balhlalha blahalhlahalh ablahlalha</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" a>
+                <div class="layer">
+                    <h3>Sgwgww</h3>
+                    <p>bewlalah  blalhah  balhlalha blahalhlahalh ablahlalha</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" a>
+                <div class="layer">
+                    <h3>wwgwgwgw</h3>
+                    <p>bewlalah  blalhah  balhlalha blahalhlahalh ablahlalha</p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See More </a>
+    </div>
+</div>
+
+<!-------------------- Contact --------------------> 
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class = "sub-title">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> Contact@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 510-309-7334</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/wajaakhan/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2"> Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                    
+                    <button type="submit" class="btn btn2">Send Message</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Kevin. Made with Easy Tutorial</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (let tablink of tablinks) {
+            tablink.classList.remove("active-links");
+        }
+
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-links");
+    }
+</script>
+
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0"
+    }
+
+    function closemenu(){
+        sidemenu.style.right = "-200px"
+        
+    }
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyjC3xw8l1Z_pFLLFK5cyzmHUv4Ifysdo36mOOyvnUQprC7Dibco7rEWSbM7FgQ6aPG/exec';
+
+    const form = document.forms['submit-to-google-sheet'];
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+    });
+</script>
+
+
+</body>
+</html>
